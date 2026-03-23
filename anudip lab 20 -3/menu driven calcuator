@@ -1,0 +1,14 @@
+while True:
+    ch = int(input("1+ 2- 3* 4/ 5Exit: "))
+
+    if ch == 5:
+        break
+
+    a = float(input())
+    b = float(input())
+
+    if ch == 1: print(a+b)
+    elif ch == 2: print(a-b)
+    elif ch == 3: print(a*b)
+    elif ch == 4:
+        print("Error" if b == 0 else a/b)

@@ -1,0 +1,16 @@
+bal = 10000
+
+while True:
+    ch = int(input("1.Withdraw 2.Exit: "))
+
+    if ch == 1:
+        amt = float(input())
+        if amt < 0:
+            print("Invalid")
+        elif amt > bal:
+            print("Insufficient")
+        else:
+            bal -= amt
+            print("Balance:", bal)
+    else:
+        break

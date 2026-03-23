@@ -1,0 +1,7 @@
+u, p = "admin", "1234"
+for i in range(3):
+    if input("User: ") == u and input("Pass: ") == p:
+        print("Login Successful")
+        break
+else:
+    print("Account Locked")

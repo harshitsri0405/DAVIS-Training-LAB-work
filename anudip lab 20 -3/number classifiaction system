@@ -1,0 +1,9 @@
+nums = list(map(int, input().split()))
+
+for n in nums:
+    if n > 0: print("Positive")
+    elif n < 0: print("Negative")
+    else: print("Zero")
+
+    if n != 0:
+        print("Even" if n % 2 == 0 else "Odd")
