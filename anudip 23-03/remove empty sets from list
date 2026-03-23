@@ -1,0 +1,6 @@
+lst = [{1,2}, set(), {3,4}, set()]
+result = []
+for i in lst:
+    if i != set():
+        result.append(i)
+print(result)
